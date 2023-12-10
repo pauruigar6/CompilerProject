@@ -15,7 +15,7 @@
  * Constructors:
  * - Compiler(String input): Initializes the Compiler with the given mathematical expression.
  *
- * Methods:
+ * Methods: 
  * - performLexicalAnalysis(): Performs lexical analysis on the input expression.
  * - performSyntaxAnalysis(): Performs syntax analysis on the tokenized expression.
  * - evaluateExpression(): Evaluates the expression based on syntax analysis.

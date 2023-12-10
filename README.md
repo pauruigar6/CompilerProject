@@ -23,6 +23,7 @@ This is a simple compiler implementation in Java that performs lexical, syntax, 
 The **Compiler** class provides functionalities to analyze and evaluate mathematical expressions. It processes the input expression through lexical analysis, syntax analysis, and expression evaluation.
 
 ## Implementation Details
+
 - **Language used**: Java.
 - **Libraries**:
   - **java.util.Deque**: maintain two stacks (stack1 and stack2) for performing syntactic analysis and evaluating mathematical expressions.
@@ -89,5 +90,3 @@ Input: add(5, mul(3, sub(10, pow(6, 4))))
 Output: 5+3*(10-6^4)
 Result: 14.0
 ```
-
-
