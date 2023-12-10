@@ -1,8 +1,9 @@
 # Compiler Project (IFJe 23/24)
 
 Author: Paula Ruiz Gardón.  
-Login: xruig03
-Repository Link: [Compiler Project](https://github.com/pauruigar6/WebDesign.git)
+Login: xruig03. 
+
+Repository Link: [Compiler Project](https://github.com/pauruigar6/WebDesign.git).
 
 ## Overview
 
