@@ -34,8 +34,8 @@ The **Compiler** class provides functionalities to analyze and evaluate mathemat
 ## Project Structure
 
 - **/src**: It contains the different Java modules that make up the project.
-  - **Compiler.java**: Contiene funciones para explotar los datos sobre inspecciones.
-  - **MainCompiler.java**: Contiene funciones de test para probar las funciones del módulo inspecciones.py. En este módulo está definida la función main.
+  - **Compiler.java**: Represents a simple compiler for mathematical expressions. It performs lexical analysis, syntax analysis, and expression evaluation.
+  - **MainCompiler.java**: Contains the main method for the mathematical expression compiler.ción main.
 
 ## Usage
 
