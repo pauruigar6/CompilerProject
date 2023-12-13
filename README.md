@@ -104,6 +104,7 @@ javac src/Compiler.java
 javac src/MainCompiler.java
 ```
 Make sure to adjust the file path according to your directory structure.
+
 6. After successful compilation, run the program using the java command. Execute the following command:
 ```bash
 java -classpath src MainCompiler
