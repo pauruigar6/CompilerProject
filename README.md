@@ -18,6 +18,7 @@ This is a simple compiler implementation in Java that performs lexical, syntax, 
 5. [Class Structure](#class-structure)
 6. [Methods](#methods)
 7. [Example](#example)
+8. [How to run the program](#how-to-run-the-program)
 
 ## Introduction
 
@@ -91,3 +92,22 @@ Input: add(5, mul(3, sub(10, pow(6, 4))))
 Output: 5+3*(10-6^4)
 Result: 14.0
 ```
+
+# How to run the program
+1. Ensure you have Java installed on your system. You can download and install the JDK (Java Development Kit) from the official Oracle website or use a Java distribution such as OpenJDK.
+2. Save the provided code into two separate files: one for the Compiler class and another for the MainCompiler class. For example, you can save the Compiler class in a file named Compiler.java and the MainCompiler class in a file named MainCompiler.java.
+3. Open a terminal or command prompt.
+4. Navigate to the directory where you saved the files. You can do this using the cd command in the terminal.
+5. Compile the Java files using the javac command. Execute the following commands in the terminal:
+```bash
+javac src/Compiler.java
+javac src/MainCompiler.java
+```
+Make sure to adjust the file path according to your directory structure.
+6. After successful compilation, run the program using the java command. Execute the following command:
+```bash
+java -classpath src MainCompiler
+```
+Here, src is the directory containing your compiled files, and the entry point is MainCompiler.
+7. The program will prompt you to enter mathematical operations. Enter the operations one by one and press Enter after each. To end the program, enter "END".
+8. Observe the output in the terminal, which will display the results of lexical analysis, syntax analysis, and expression evaluation.
