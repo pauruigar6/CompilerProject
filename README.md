@@ -108,6 +108,5 @@ Make sure to adjust the file path according to your directory structure.
 ```bash
 java -classpath src MainCompiler
 ```
-Here, src is the directory containing your compiled files, and the entry point is MainCompiler.
-7. The program will prompt you to enter mathematical operations. Enter the operations one by one and press Enter after each. To end the program, enter "END".
+7. Here, src is the directory containing your compiled files, and the entry point is MainCompiler. The program will prompt you to enter mathematical operations. Enter the operations one by one and press Enter after each. To end the program, enter "END".
 8. Observe the output in the terminal, which will display the results of lexical analysis, syntax analysis, and expression evaluation.
