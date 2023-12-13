@@ -107,7 +107,7 @@ Make sure to adjust the file path according to your directory structure.
 
 6. After successful compilation, run the program using the java command. Execute the following command:
 ```bash
-java -classpath src MainCompiler
+java src.MainCompiler
 ```
 7. Here, src is the directory containing your compiled files, and the entry point is MainCompiler. The program will prompt you to enter mathematical operations. Enter the operations one by one and press Enter after each. To end the program, enter "END".
 8. Observe the output in the terminal, which will display the results of lexical analysis, syntax analysis, and expression evaluation.
